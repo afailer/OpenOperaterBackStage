@@ -1,0 +1,24 @@
+.edit-password {
+    .dialog{
+        .header-title{
+            text-align: center;
+        }
+        .content{
+            margin-right: 20px;
+            .el-checkbox {
+                margin: 0 25px 0 0;
+            }
+        }
+        .footer{
+            text-align: center;
+            .dialog-footer{
+                .button{
+                    display: inline-block;
+                    &:first-of-type{
+                        margin-right: 60px;
+                    }
+                }
+            }
+        }
+    }
+}

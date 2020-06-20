@@ -1,0 +1,54 @@
+.account-manage{
+    padding: 10px;
+    .btn-style {
+        margin-left: 20px;
+    }
+    .model-container{
+        // box-shadow: 0px 3px 10px rgba(174, 174, 174, 0.3);
+        .add{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px 18px;
+            background: rgb(242, 242, 242);
+            margin-bottom: 10px;
+            cursor: pointer;
+            .left{}
+            .right{
+                font-size: 14px;
+                padding: 10px;
+                background-color: #409EFF;
+                color: #fff;
+                width: 70px;
+                border-radius: 4px;
+            }
+        }
+        .pagination{
+            padding: 12px;
+            text-align: center;
+        }
+    }
+    .dialog{
+        .header-title{
+            text-align: center;
+        }
+        .content{
+            margin-right: 20px;
+            .el-checkbox {
+                margin: 0 25px 0 0;
+            }
+        }
+        .footer{
+            text-align: center;
+            .dialog-footer{
+                .button{
+                    display: inline-block;
+                    &:first-of-type{
+                        margin-right: 60px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
